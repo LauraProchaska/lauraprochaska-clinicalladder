@@ -1,13 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="LP-style.css">
+
+    <title>LLP</title>
 </head>
+
 <body>
 
+<!--Imgage for large screens only-->
+
+<div  class="title-header start hidden-md hidden-sm hidden-xs" >
+    <a href="#header"><img src="./images/DSC_1351.JPG" alt=""></a>
+</div>    
+
+<!--JUMBOTRON-->
+
+<div class="jumbotron" id="header">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail hidden-sm hidden-xs">
+                <img src="./images/download.png" alt="https://www.linkedin.com/in/laura-prochaska/">
+            </a>
+        </div>
+        <h1 class="navbar-right" id="title">Laura Prochaska <small>Developer</small></h1>
+
+    </div>
+    </div>
+</div>
+
+<!--NAVBAR-->
+
+<div class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Welcome</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">  About Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+
+                <ul class="nav  navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="btn dropdown-toggle" id="button">    MORE   </span> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#social-media-links">Social Medial</a></li>
+                            <li><a href="#">Personal Life</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Work History</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-inverse">Submit</button>
+                    </form>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+</div>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix">
+                <div>
+                    <div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<nav class="navbar-fixed-bottom navbar-inverse">
+    <div class="footer">
+        <div  class="row" id="social-media-links" >
+            <a href="http://facebook.com" class="fa fa-facebook-official column one-third" aria-hidden="true"><span class="btn btn-lg btn-info">Facebook</span></a>
+            <a href="http://instagram.com" class="fa fa-instagram column one-third" aria-hidden="true"><span class="btn btn-lg  label-danger">Instagram</span></a>
+            <a href="http://twitter.com" class="fa fa-twitter-square column one-third" aria-hidden="true"><span class="btn btn-lg  label-warning">Twitter</span></a>
+        </div>
+    </div>
+</nav>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="LP-function.js"></script>
 </html>

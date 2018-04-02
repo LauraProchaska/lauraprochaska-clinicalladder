@@ -1,0 +1,58 @@
+/*Jumbotron*/
+.start-img {
+    /*background-image: url("./images/DSC_1351.JPG");*/
+}
+
+body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
+    width: 100%;
+}
+
+.title-header, .jumbotron {
+    background-color: #333333;
+    color: white;
+}
+
+#title {
+    text-align: right;
+}
+
+/*Background*/
+
+body {
+    background-color: #3d3d3d;
+    height: 5000px;
+}
+
+/*Navbar*/
+
+.navbar-inverse {
+    font-size: larger;
+}
+
+/*add padding between seach button and more dropdown*/
+
+#bs-example-navbar-collapse-1 > ul:nth-child(2) > li > a {
+    background-color: #313131;
+    /*border: 1px solid black;*/
+    margin-left: 15px;
+}
+#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right.hidden-sm > form > button {
+    margin-left: 5px;
+}
+
+#button {
+    color: #008b8b;
+    background-color: #333333;
+}
+
+/*Footer*/
+
+.footer {
+    text-align: center;
+}
+
+
+.btn-lg {
+    color: rgba(243, 243, 243, 0.89);
+}
+
