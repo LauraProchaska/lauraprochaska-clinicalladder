@@ -12,6 +12,8 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
     color: white;
 }
 
+/*My name seen on right of screen*/
+
 #title {
     text-align: right;
 }
@@ -44,7 +46,11 @@ body {
     color: #008b8b;
     background-color: #333333;
 }
+/*MAIN SECTION STYLING*/
 
+section {
+    color: whitesmoke;
+}
 /*Footer*/
 
 .footer {
@@ -56,3 +62,6 @@ body {
     color: rgba(243, 243, 243, 0.89);
 }
 
+footer {
+    /*position: -ms-device-fixed;*/
+}
