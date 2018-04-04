@@ -41,7 +41,7 @@
 
 <!--NAVBAR-->
 
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse" id="top">
     <nav class="navbar navbar-inverse">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,9 +59,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">  About Me</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li class="active"><a href="#contactInfo">Contact <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#aboutMe">  About Me</a></li>
+                    <li><a href="https://docs.google.com/document/d/e/2PACX-1vThA4MLdXXH21ukabhcCq0h7j4DerigkrcYFVRMaitLy15KiC4AAZCqglKYXxFlkU3ICdfUh5kQpS5-/pub" target="_blank">Resume</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right hidden-sm">
                     <form class="navbar-form navbar-right">
@@ -80,7 +80,8 @@
                             <li><a href="#social-media-links">Social Medial</a></li>
                             <li><a href="#">Personal Life</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Work History</a></li>
+                            <li><a href="#recentProjects">Recent Projects</a></li>
+                            <li><a href="#workHistory">Work History</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -93,51 +94,171 @@
 
 
 </div>
-<div class="site-wrapper">
-    <div class="site-wrapper-inner">
-        <div class="cover-container">
-            <div class="masthead clearfix">
-                <div>
-                    <div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <main>
     <!--Progress Bars-->
     <section class="container">
-        <h1>Developer Languages</h1>
-        <h2>Java JVM</h2>
+        <br>
+
+        <h1 id="fullStack">Full Stack Developer</h1>
+
+        <h2>HTML</h2>
         <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                <span class="sr-only">80% Complete (success)</span>
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                <span class="sr-only">90% Complete (success)</span>
+            </div>
+        </div>
+        <h2>CSS</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="sr-only">80% Complete</span>
             </div>
         </div>
         <h2>JavaScript</h2>
         <div class="progress">
-            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                <span class="sr-only">60% Complete</span>
+            <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                <span class="sr-only">55% Complete</span>
             </div>
         </div>
-        <h2>MySQL</h2>
+        <h2>Programming language: Java</h2>
         <div class="progress">
-            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                <span class="sr-only">70% Complete (success)</span>
+            </div>
+        </div>
+        <h2>Relational Database System: MySQL</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                 <span class="sr-only">60% Complete (warning)</span>
             </div>
         </div>
         <h2>Spring</h2>
         <div class="progress">
-            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                <span class="sr-only">70% Complete (danger)</span>
+            </div>
+        </div>
+        <h2>Version-Control System: git.</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                 <span class="sr-only">80% Complete (danger)</span>
             </div>
         </div>
     </section>
+    <br>
 
+    <!--CONTACT INFO-->
+    <div class="container">
+        <div id="quote">
+        <blockquote>"The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed." -Carl Jung</blockquote>
+        </div>
+        <br>
+        <div class="contactInformation">
+            <h1 id="contactInfo" class="contact">Contact Info</h1>
+
+            <p1 class="contact" id="contactText">
+                Phone:
+                (305) 900-8059
+                <br>
+                Email:
+                lauraleeprochaska@gmail.com
+                <br>
+                Linkedin
+                <a href="https://www.linkedin.com/in/laura-prochaska" target="_blank">linkedin.com/in/laura-prochaska</a>
+                <br>
+                github.com/lalepro
+                <br>
+            </p1>
+        </div>
+        <br>
+        <div class="infoButtons">
+            <button class="buttonPages" id="button1"><a href="https://www.github.com/lalepro" target="_blank">git hub</a></button>
+            <button class="buttonPages" id="button2"><a href="https://www.linkedin.com/in/laura-prochaska/" target="_blank">Linkedin</a></button>
+            <button class="buttonPages" id="button3"><a href="https://laleprotravel.blogspot.com" target="_blank">blogger</a></button>
+            <button class="buttonPages" id="button4"><a href="https://www.facebook.com/proartphotos/" target="_blank">Photography</a></button>
+        </div>
+        <br>
+    </div>
+
+
+<!--RESUME-->
+
+    <div class="container resume">
+        <h3 id="aboutMe">About Me</h3>
+        <p id="summary">
+            I am a software developer with a long career in healthcare. I am attracted to the challenge of a new platform much like I was in the field of medical imaging. Both are areas that made me think differently thus affording me the opportunity to deliver great client service.  My steadfast focus in creating practical solutions drives me in my approach to coding.
+        </p>
+
+        <div>
+            <h4 id="recentProjects">RECENT PROJECTS</h4>
+            __________________________________________
+            <br>
+            Ad-Lister Application- Using MySQL- April 2018
+            Contacts Manager Application-Using JAVA-March 2018
+            Movie App-Using JAVA-March 2018
+            Movie App-Using NPM & Node.JS-February 2018
+            Weather App-Working with Google APIs- February 2018
+            Coffee App- Developing JS Functionality & Pairing Skills-February  2018
+            Responsive Site-CSS/Bootstrap & Pairing Skills-January 2018
+        </div>
+        <div>
+            <h4 id="workHistory">Work History</h4>
+            __________________________________________
+            <br>
+            Photographer-ProArt Photos, Global
+            JANUARY 2016 - PRESENT
+            Freelance Portrait Photographer
+            Lead Technologist-GWU Hospital, Washington DC
+            JANUARY 2016 -  OCTOBER 2017
+            Functioned as the lead on a team, serving as a medical imaging professional providing clinically relevant information to assist the physician with the diagnosis and treatment of patients.
+            Lead Technologist-GCM Radiology, Washington DC
+            OCTOBER 2010 - DECEMBER 2015
+            Overseed the performance of diagnostic examinations using sonographic equipment, and served as a liaison for the ultrasound team to management and doctors to support quality, safety and process standards for the department.
+            Imaging Technologist,  INOVA Healthcare, Washington DC
+            SEPTEMBER 2009 - OCTOBER  2010
+            Certified Vascular and obstetric Technologist. Assisted Radiologists in diagnostic ultrasound procedures by performing the sonography.
+            Lab Assistant, George Washington Uni., Washington DC
+            SEPTEMBER 2009-MARCH 2011
+            Taught imaging technical skills to students in the Sonography Program.
+        </div>
+        <div>
+            <h4>TECHNICAL SKILLS</h4>
+            _________________
+            <br>
+            JAVA, JavaScript, JavaFX, NPM, Node.JS,  AngularJS, HTML ,XHTML, CSS/CSS3, Spring, MYSQL, JQuery, Bootstrap,Git, GitHub,  Adobe Photoshop
+        </div>
+        <div>
+            <h4>EDUCATION</h4>
+            ______________
+            <br>
+            CODEUP ACADEMY
+            SAN ANTONIO TX
+            SOFTWARE DEVELOPMENT
+            18 WEEKS - 600+ HOURS
+            GEORGE WASHINGTON UNIVERSITY
+            WASHINGTON DC
+            BACHELORS OF SCIENCE
+            Magna Cum Laude
+            AUGUST  2008 - MAY 2018
+            FLORIDA STATE COLLEGE (FSC)
+            JACKSONVILLE FL
+            ASSOCIATES OF ARTS
+        </div>
+        <div>
+            <h4>AWARDS</h4>
+            _________________
+            <br>
+            FSC Photography Competition
+            Best In Show, 2007
+        </div>
+        <div>
+            <h4>CERTIFICATIONS</h4>
+            _________________
+            <br>
+            RDMS # 138923
+            RVT #138923
+        </div>
+    </div>
 
 
 </main>
@@ -146,14 +267,15 @@
 
 
 </body>
-
-<footer>
+<h1 class="container"><a href="#contactInfo">Contact Me</a></h1>
+<footer class="container">
+    <a href="#top"><h3>Back to Top</h3></a>
 <nav class="navbar navbar-fixed-bottom navbar-inverse">
     <div class="footer">
         <div  class="row" id="social-media-links" >
-            <a href="https://www.facebook.com/thisisallfake?ref=bookmarks" class="fa fa-facebook-official column one-third" aria-hidden="true"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="btn btn-lg btn-info">Facebook</span></a>
-            <a href="http://instagram.com" class="fa fa-instagram column one-third" aria-hidden="true"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span><span class="btn btn-lg  label-danger">Instagram</span></a>
-            <a href="http://twitter.com" class="fa fa-twitter-square column one-third" aria-hidden="true"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span><span class="btn btn-lg  label-warning">Twitter</span></a>
+            <a href="https://www.facebook.com/thisisallfake?ref=bookmarks" target="_blank" class="fa fa-facebook-official column one-third" aria-hidden="true"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="btn btn-lg btn-info">Facebook</span></a>
+            <a href="http://instagram.com" target="_blank" class="fa fa-instagram column one-third" aria-hidden="true"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span><span class="btn btn-lg  label-danger">Instagram</span></a>
+            <a href="http://twitter.com" target="_blank" class="fa fa-twitter-square column one-third" aria-hidden="true"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span><span class="btn btn-lg  label-warning">Twitter</span></a>
         </div>
     </div>
 </nav>
