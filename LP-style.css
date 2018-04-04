@@ -270,7 +270,10 @@ li{
     text-align: center;
     margin: 0 auto;
 
+
 }
+
+
 .one-button:hover i{
     color: #09c;
 
@@ -311,7 +314,7 @@ li{
 ul.cont{
     /*position: absolute;*/
     top: 75px;
-    width: 600px;
+    width: 100%;
     left: calc(50% - 335px);
     box-sizing: content-box;
     text-align: center;
