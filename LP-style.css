@@ -218,6 +218,11 @@ strong{
 /*}*/
 
 /*FOOTER SOCIAL MEDIAL LINKS----------------------------------------------------------------------*/
+.footer{
+
+
+}
+
 ul, li{
     padding: 0;
     margin: 0;
@@ -261,7 +266,9 @@ li{
     z-index: 99999;
     top: 15px;
     left: 15px;
-    margin-left: 55px;
+    /*margin-left: 55px;*/
+    text-align: center;
+    margin: 0 auto;
 
 }
 .one-button:hover i{
@@ -309,7 +316,8 @@ ul.cont{
     box-sizing: content-box;
     text-align: center;
     margin: 0 auto;
-    display: block;
+    /*display: block;*/
+    display: flex;
 
 }
 /*h1{*/
@@ -326,6 +334,7 @@ ul.cont{
 #construction {
     display: block;
     margin: 0 auto;
+    width: 90%;
 }
 
 
