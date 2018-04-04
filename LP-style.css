@@ -57,7 +57,9 @@ blockquote{
     font-family: "American Typewriter";
     font-size: xx-large;
     font-weight: bolder;
-    width: 70%;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 #quote {
@@ -73,23 +75,33 @@ blockquote{
 }
 
 .contact{
-    color: whitesmoke;
+    color: #f3f3f3;
+    font-family: "American Typewriter";
+    font-size: 55px;
+    font-weight: bolder;
 }
 
 #contactText{
-    font-size: larger;
+    font-size: 43px;
+    font-family: "American Typewriter";
+    color: #00ecec;
+    font-weight: bold;
 
 }
 .contactInformation{
     text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
 }
 
 .infoButtons {
     color: #313131;
-    background-color: #5c5c5c;
+    background-color: rgba(75, 75, 75, 0.41);
+    margin-bottom: 150px;
+
 }
 #button1 {
-    margin-left: 29%;
+    margin-left: 30%;
 
 }
 
@@ -104,7 +116,21 @@ blockquote{
     color: #000000;
 }
 
+.container {
+    background-color: rgba(63, 63, 63, 0.04);
+}
 
+strong{
+    text-decoration: underline;
+}
+
+#funTimes{
+    color: lightseagreen;
+    background-color: rgba(0, 0, 0, 0.08);
+    font-family: "Comic Sans MS";
+    text-align: center;
+
+}
 
 /*Footer*/
 
