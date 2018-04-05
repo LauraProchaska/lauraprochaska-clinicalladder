@@ -82,7 +82,7 @@ blockquote{
 }
 
 #contactText{
-    font-size: 43px;
+    font-size: 30px;
     font-family: "American Typewriter";
     color: #c7c7c7;
     font-weight: bold;
@@ -190,6 +190,10 @@ strong{
     font-family: "Comic Sans MS";
     text-align: center;
 
+}
+
+p{
+    word-break: break-all;
 }
 
 /*Footer*/
