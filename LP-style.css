@@ -23,6 +23,7 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 body {
     background-color: rgb(100, 100, 100);
     height: 5000px;
+    width: 100vw;
 }
 
 /*Navbar*/
