@@ -49,8 +49,22 @@ body {
 }
 /*MAIN SECTION STYLING*/
 
-section {
+section, body > main > div.container.resume{
     color: whitesmoke;
+}
+
+h2{
+    font-family: "American Typewriter";
+    font-size: 3em;
+}
+
+h4{
+    font-family: "American Typewriter";
+    font-size: 2em;
+}
+
+#recentProjects {
+    padding-top: 100px;
 }
 
 blockquote{
