@@ -49,8 +49,36 @@ body {
 }
 /*MAIN SECTION STYLING*/
 
+
 section, body > main > div.container.resume{
     color: whitesmoke;
+}
+/*FULL STACK DEVELOPER*/
+#fullStack > strong > a{
+    font-family: "American Typewriter";
+
+    padding: 30px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 150px;
+    transition-duration: 0.4s;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#fullStack > strong > a:active {
+    -webkit-box-shadow: 0px 3px 0px rgb(73, 73, 73), 0px 3px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgb(73, 73, 73), 0px 3px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgb(73, 73, 73), 0px 3px 6px rgba(0, 0, 0, .9);
+    position: relative;
+    top: 6px;
+}
+
+body > main > section > h2:nth-child(4){
+    margin-top: 180px;
 }
 
 h2{
@@ -74,7 +102,7 @@ blockquote{
     font-weight: bolder;
     width: 90%;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 280px;
 }
 
 #quote {
@@ -212,6 +240,19 @@ strong{
 p{
     word-break: break-all;
 }
+/*JQUERY CODE FOR JS FEATURES*/
+.invisible{
+    display: none;
+}
+
+.highlight{
+    display: inline-block;
+}
+
+.hideRegister{
+    display: none;
+}
+
 
 /*Footer*/
 
