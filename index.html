@@ -28,28 +28,24 @@
 <!--JUMBOTRON-->
 
 <div class="jumbotron" id="header">
-    <div class="container">
-    <div class="row">
-        <div class="col-xs-6 col-md-3">
-            <a href="#lost" class="thumbnail hidden-sm hidden-xs">
-                <img src="./images/portait.png" alt="https://www.linkedin.com/in/laura-prochaska/">
-            </a>
+    <div class="container" id="top">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#lost" class="thumbnail hidden-sm hidden-xs">
+                    <img src="./images/portait.png" alt="https://www.linkedin.com/in/laura-prochaska/">
+                </a>
+            </div>
+            <h1 class="navbar-right" class="title">Laura Prochaska</h1>
+            <h3 class="title-dev">Software Developer</h3>
+            <h3 class="title-info">(305) 900-8059</h3>
+            <h3 class="title-info"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">Email Me</a></h3>
         </div>
-        <h1 class="navbar-right" class="title">Laura Prochaska</h1>
-        <h3 class="title-dev">Software Developer</h3>
-        <h3 class="title-info">(305) 900-8059</h3>
-        <h3 class="title-info"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">Email Me</a></h3>
-
-    </div>
     </div>
 </div>
-
-<!--NAVBAR-->
-
-<div class="navbar navbar-inverse" id="top">
+<!--*****************************************************NAVBAR*************************************************************-->
+<div class="navbar navbar-inverse">
     <nav class="navbar navbar-inverse">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -59,10 +55,7 @@
                 </button>
                 <a class="navbar-brand" href="#">Welcome</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#contactInfo">Contact <span class="sr-only">(current)</span></a></li>
                     <li><a href="#aboutMe">  About Me</a></li>
@@ -71,12 +64,10 @@
                 <ul class="nav navbar-nav navbar-right hidden-sm">
                     <form class="navbar-form navbar-right">
                         <div class="form-group">
-                        <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search My Projects">
+                            <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search My Projects">
                         </div>
-                        <!--<button type="submit" class="btn btn-inverse">Find</button>-->
                     </form>
                 </ul>
-
                 <ul class="nav  navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="btn dropdown-toggle" id="button">    MORE   </span> <span class="caret"></span></a>
@@ -85,23 +76,15 @@
                             <li><a href="#social-media-links">Social Medial</a></li>
                             <li><a href="#funTimes">Personal Life</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#recentProjects">Recent Projects</a></li>
                             <li><a href="#workHistory">Work History</a></li>
+                            <li><a href="#education">Education</a></li>
                         </ul>
                     </li>
                 </ul>
-
-
             </div>
-
         </div>
     </nav>
-
-
 </div>
-
-<!--under construction-->
-<!--<img id="construction" src="images/under-construction-600x218.png" height="218" width="600"/>-->
 
 <main class="container">
     <h2 style="text-align: center">Personal Projects</h2>
@@ -115,14 +98,13 @@
         <li><a href="#">Weather App <br><em><small>Javascript, Google API: February 2018</small></em></a></li>
         <li><a href="#">Mobile Responsive Site <br><em><small>HTML5,CSS/Bootstrap, pair project: January 2018</small></em></a></li>
     </ul>
-    <!--Progress Bars-->
     <section class="container">
         <br>
         <div id="quote">
             <blockquote>“Great web design without functionality is like a sports car with no engine.”
                 ― Paul Cookson</blockquote>
         </div>
-
+    <!--Progress Bars-->
         <h1 id="fullStack"><strong><a href="https://docs.google.com/document/d/e/2PACX-1vThA4MLdXXH21ukabhcCq0h7j4DerigkrcYFVRMaitLy15KiC4AAZCqglKYXxFlkU3ICdfUh5kQpS5-/pub" target="_blank">Full Stack Developer</a></strong></h1>
 
         <h2>Markup: <strong>HTML</strong></h2>
@@ -169,18 +151,16 @@
         </div>
     </section>
     <br>
-
     <!--CONTACT INFO-->
     <div class="container">
-        <div class="contactInformation">
-            <a id="contactInfo" class="contact">Contact Info</a>
+        <div class="contact-information">
+            <a id="contact-info" class="contact">Contact Info</a>
             <!--href="#"  id infoshow class highlight need work. jquery not working-->
             <dl>
                 <dt>
                 </dt>
                 <dd>
-                    <p class="contact" id="contactText">
-                        <!--invisible-->
+                    <p class="contact" id="contact-text">
                         Laura Prochaska
                         <br>
                         (305) 900-8059
@@ -205,9 +185,7 @@
         <br>
     </div>
 
-
 <!--RESUME-->
-
     <div class="container resume">
         <h2 id="aboutMe"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Need%20a%20Developer" target="_top">Looking for a Web Developer?</a></h2>
         <h3 id="summary">
@@ -270,39 +248,55 @@
             </table>
         </div>
         <br>
-    </div>
 
+    <!--*********************************************Education**********************************************************-->
+
+        <div class="container">
+            <div class="row image-tiles">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <!--<img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">-->
+                    <h3>School of hard knocks</h3>
+                </div>
+            </div>
+            <div class="row image-tiles">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src=https://i.scdn.co/image/2fd8fa0f7ef2f83691a0fb9628ee369b8e3b688e class="img-responsive">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <h3>Codeup</h3>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--TODO: This is a photography slideshow to show my personal protrait progjects-->
     <h2>ProArt Portrait Photography</h2>
     <h3><em>This slide show represents some of my portrait photography.</em></h3>
     <!-- Slideshow container -->
     <div class="slideshow-container">
-
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="images/img1.jpeg" style="width:100%">
             <div class="text">Newborn Baby Boy</div>
         </div>
-
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <img src="images/img2.jpeg" style="width:100%">
             <div class="text">Father with Son</div>
         </div>
-
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <img src="images/img3.jpeg" style="width:100%">
             <div class="text">Newborn Baby boy</div>
         </div>
-
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
-
     <!-- The dots/circles -->
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
@@ -310,55 +304,33 @@
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
     <!--TODO: End of photography slides-->
-
 </main>
-
-<div>
-<h1 class="container"><a href="#contactInfo">Contact Me</a></h1>
-</div>
-<div id="lost">2</div>
-
-<div class="container">
-
-<a href="#top"><h3>Back to Top</h3></a>
-
-
-    <div class="footer">
-
-        <ul class="cont">
-
-            <li class="one-button">
-                <a href="http://twitter.com" target="_blank">
-                    <i class="fa fa-twitter fa-2x"></i>
-                </a>
-            </li>
-
-            <li class="one-button">
-                <a href="https://www.facebook.com/proartphotos/" target="_blank">
-                    <i class="fa fa-facebook fa-2x"></i>
-                </a>
-            </li>
-
-            <li class="one-button">
-                <a href="https://www.linkedin.com/in/laura-prochaska/" target="_blank">
-                    <i class="fa fa-linkedin fa-2x"></i>
-                </a>
-            </li>
-
-            <li class="one-button">
-                <a href="https://www.github.com/lalepro" target="_blank">
-                    <i class="fa fa-github fa-2x"></i>
-                </a>
-            </li>
-
-            <a href="http://instagram.com/lalepro" target="_blank">
+    <section id="footer-container">
+        <div class="container footer">
+            <div id="back-to-top">
+                <h1 class="container"><a href="#contact-info">Contact Me</a></h1>
+                <a href="#top"><h5><em>Back to Top</em></h5></a>
+            </div>
+            <ul class="cont">
                 <li class="one-button">
-                    <i class="fa fa-instagram fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
+                    <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                </li>
+                <li class="one-button">
+                    <a href="https://www.facebook.com/proartphotos/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li class="one-button">
+                    <a href="https://www.linkedin.com/in/laura-prochaska/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+                <li class="one-button">
+                    <a href="https://www.github.com/lalepro" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                </li>
+                <li class="one-button">
+                    <a href="http://instagram.com/lalepro" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+<!--</div>-->
 <br><br><br><br><br><br><br><br>
 <script src="LP-function.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -367,39 +339,3 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!--For this project, you will be creating a personal website that can be shown to potential employers or recruiters.-->
-
-<!--Site setup-->
-<!--We will setup our site to work with Github Pages, which will let us host our personal site for free!-->
-
-<!--Create a new project for your personal site.-->
-
-<!--Create a new HTML file named index.html. This will be your landing page, that is, the page that people will see when they first navigate to your site.-->
-
-<!--Create a new git repository locally-->
-
-<!--Create a new repository on Github that is named your-username.github.io and link up your local repository.-->
-
-<!--if you follow this naming convention precisely, whatever you have in this repository will be available at https://your-username.github.io.-->
-<!--Specification-->
-<!--Keep in mind that the audience for your personal site is potential employers.-->
-
-<!--Your site should:-->
-
-<!--Be mobile responsive-->
-<!--Have your contact information clearly displayed-->
-<!--Have links to your social media presence (if they are professional)-->
-<!--Link to your GitHub-->
-<!--Contain a portfolio of projects you've completed (you can update this throughout the course)-->
-<!--Identify yourself as a job seeker-->
-<!--Link to your resume-->
-<!--If your site contains all of the above, be creative! Your personal site is a canvas for you to show off to the world!-->
-
-<!--social buttons option-->
-
-<!--<div  class="row" id="social-media-links" >-->
-<!--<a href="https://www.facebook.com/thisisallfake?ref=bookmarks" target="_blank" class="fa fa-facebook-official column one-third" aria-hidden="true"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="btn btn-lg btn-info">Facebook</span></a>-->
-<!--<a href="http://instagram.com" target="_blank" class="fa fa-instagram column one-third" aria-hidden="true"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span><span class="btn btn-lg  label-danger">Instagram</span></a>-->
-<!--<a href="http://twitter.com" target="_blank" class="fa fa-twitter-square column one-third" aria-hidden="true"><span class="glyphicon glyphicon-plane" aria-hidden="true"></span><span class="btn btn-lg  label-warning">Twitter</span></a>-->
-<!--</div>-->

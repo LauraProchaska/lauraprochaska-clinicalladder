@@ -41,7 +41,7 @@ body {
     font-size: larger;
 }
 
-/*add padding between seach button and more dropdown*/
+/*add padding between search button and more dropdown*/
 
 #bs-example-navbar-collapse-1 > ul:nth-child(2) > li > a {
     background-color: rgba(73, 73, 73, 0.69);
@@ -174,14 +174,14 @@ blockquote{
     font-weight: bolder;
 }
 
-#contactText{
+#contact-text{
     font-size: 30px;
     font-family: "American Typewriter";
     color: #c7c7c7;
     font-weight: bold;
 
 }
-.contactInformation{
+.contact-information, #contact-info{
     text-align: center;
     margin-top: 250px;
     margin-bottom: 50px;
@@ -303,14 +303,36 @@ p{
     display: none;
 }
 
+#aboutMe{
+    text-align: center;
+}
 
-
+/*Education*/
+div.image-tiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+    padding: 5px;
+}
+@media(max-width: 480px){
+    div.image-tiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+        padding: 5px;}
+}
 
 
 /*FOOTER SOCIAL MEDIAL LINKS----------------------------------------------------------------------*/
-.footer{
-
-
+#footer-container{
+    position: relative;
+    bottom: 0;
+}
+#footer-container > div{
+    padding-bottom: 400px;
+    padding-top: 5em;
+    opacity: 0.5;
+    background: #00bcbc;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 ul, li{
@@ -411,16 +433,6 @@ ul.cont{
     display: flex;
 
 }
-/*h1{*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*font-family: 'Exo 2', sans-serif;*/
-    /*font-size: 42pt;*/
-    /*color: #09c;*/
-    /*text-shadow: 1px 1px 2px #000;*/
-    /*text-align: center;*/
-
-/*}*/
 
 #construction {
     display: block;
@@ -524,5 +536,7 @@ ul.cont{
     to {opacity: 1}
 }
 
-/*TODO: **************************PHOTO SLIDE SHOW**************************/
-
+/* **************************PHOTO SLIDE SHOW END**************************/
+#back-to-top{
+    text-align: center;
+}
