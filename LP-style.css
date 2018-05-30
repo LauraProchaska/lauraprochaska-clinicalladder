@@ -11,7 +11,9 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
     background-color: #333333;
     color: white;
 }
-
+.jumbotron{
+    margin-bottom: -30px;
+}
 /*My name seen on right of screen*/
 
 .title {
@@ -32,9 +34,15 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 /*Background*/
 
 body {
-    background-color: rgb(34, 34, 34);
+    /*background-color: rgb(34, 34, 34);*/
+    background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%), no-repeat;
+    background: -moz-linear-gradient(360deg, #1C1C1C 10%, #494949 360%), no-repeat;
+    background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%), no-repeat;
     height: 5000px;
     width: 100vw;
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.13);
 }
 
 /*Navbar*/
@@ -50,6 +58,9 @@ body {
 
 
 /*add padding between search button and more dropdown*/
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #008686;
+}
 
 #bs-example-navbar-collapse-1 > ul:nth-child(2) > li > a {
     background-color: rgba(73, 73, 73, 0.69);
@@ -96,7 +107,8 @@ section, body > main > div.container.resume{
     text-align: center;
     border: 1px solid rgba(125,126,125,1); /* Add a border to all links */
     margin-top: -1px; /* Prevent double borders */
-    background-color: rgba(31, 67, 67, 0.63); /* Grey background color */
+    /*background-color: rgba(31, 67, 67, 0.63); !* Grey background color *!*/
+    background: linear-gradient(to right, rgb(0, 120, 120), #511c9d, rgba(12, 19, 111, 0.81));
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove default text underline */
     font-size: 2em; /* Increase the font-size */
@@ -105,7 +117,7 @@ section, body > main > div.container.resume{
 }
 
 #myUL li a:hover:not(.header) {
-    background-color: #007c7c; /* Add a hover effect to all links, except for headers */
+    background-color: #00ffff; /* Add a hover effect to all links, except for headers */
 }
 
 /*END OF PROJECTS SECTION*/
@@ -124,6 +136,11 @@ section, body > main > div.container.resume{
     text-align: center;
     font-weight: bolder;
 
+}
+
+.skills{
+    color: #009e9e;
+    text-shadow: 0 3px 0 #004444;
 }
 
 #fullStack > strong > a:active {
@@ -150,6 +167,9 @@ h4, body > main > h3 > em{
     font-family: Arial;
     /*font-size: 2em;*/
     color: whitesmoke;
+}
+#photo-slide-desciption{
+    text-align: center;
 }
 
 #recentProjects {
@@ -180,6 +200,9 @@ blockquote{
 #fullStack {
     margin-top: 10%;
     text-align: center;
+}
+.progress{
+    margin-right: 3%;
 }
 
 .contact{
@@ -290,10 +313,6 @@ blockquote{
     color: #000000;
 }
 
-.container {
-    background-color: rgba(63, 63, 63, 0.04);
-}
-
 strong{
     text-decoration: underline;
 }
@@ -324,7 +343,17 @@ td{
     color: #009e9e;
 }
 
+/*WORK HISTORY*/
+
+.work-title{
+    color: rgba(0, 134, 134, 0.75);
+    text-shadow: 0 2px 0 rgba(81, 28, 157, 0.89);
+}
+
 /*Education*/
+.college{
+    color: white;
+}
 .img-responsive{
     margin-bottom: 15%;
     margin-left: 20%;
