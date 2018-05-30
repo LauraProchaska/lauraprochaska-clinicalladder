@@ -29,13 +29,18 @@
 
 <div class="jumbotron" id="header">
     <div class="container" id="top">
+        <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+            <a href="#lost" class="thumbnail">
+                <img src="./images/portait.png" alt="https://www.linkedin.com/in/laura-prochaska/">
+            </a>
+        </div>
         <div class="row">
-            <div class="col-xs-6 col-md-3">
-                <a href="#lost" class="thumbnail hidden-sm hidden-xs">
+            <div class="col-lg-6 col-md-6 col-sm-4 hidden-xs">
+                <a href="#lost" class="thumbnail">
                     <img src="./images/portait.png" alt="https://www.linkedin.com/in/laura-prochaska/">
                 </a>
             </div>
-            <h1 class="navbar-right" class="title">Laura Prochaska</h1>
+            <h1 class="navbar-right" class="title col-lg-6 col-md-6 col-sm-8 col-xs-12">Laura Prochaska</h1>
             <h3 class="title-dev">Software Developer</h3>
             <h3 class="title-info">(305) 900-8059</h3>
             <h3 class="title-info"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">Email Me</a></h3>
@@ -182,8 +187,8 @@
         <div class="infoButtons">
             <button class="buttonPages" id="button1"><a href="https://www.github.com/lalepro" target="_blank">git hub</a></button>
             <button class="buttonPages" id="button2"><a href="https://www.linkedin.com/in/laura-prochaska/" target="_blank">Linkedin</a></button>
-            <button class="buttonPages" id="button3"><a href="https://laleprotravel.blogspot.com" target="_blank">blogger</a></button>
-            <button class="buttonPages" id="button4"><a href="https://www.facebook.com/proartphotos/" target="_blank">ProArt</a></button>
+            <button class="buttonPages hidden-sm hidden-xs" id="button3"><a href="https://laleprotravel.blogspot.com" target="_blank">blogger</a></button>
+            <button class="buttonPages hidden-sm hidden-xs" id="button4"><a href="https://www.facebook.com/proartphotos/" target="_blank">ProArt</a></button>
         </div>
         <br>
     </div>
@@ -215,7 +220,7 @@
         <br>
     <div>
         <h2>TECHNICAL SKILLS</h2>
-        <table class="table table-dark">
+        <table class="table table-dark hidden-sm hidden-xs">
             <thead>
             <tr>
                 <th scope="col"></th>
@@ -247,14 +252,15 @@
         </table>
     </div>
     <br>
+</main>
     <!--*********************************************Education**********************************************************-->
-        <div class="container">
+        <div class="container" id="education-container">
             <h2 id="education">EDUCATION</h2>
             <div class="row image-tiles">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
                     <img src="images/CodeupLogo.png" class="img-responsive">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 school-info">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 school-info">
                     <h1 class="college">Codeup</h1>
                     <h3 class="college">Certificate of Completion, 2018</h3>
                     <h4 class="college">Full-Stack Java Web Development Program</h4>
@@ -262,11 +268,11 @@
                 </div>
             </div>
             <div class="row image-tiles">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
                     <img style="width:  40%" src="images/GW.png" class="img-responsive">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 school-info">
-                    <h1 class="college">The George Washington University</h1>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 school-info">
+                    <h1 class="college">George Washington Uni.</h1>
                     <h3 class="college">Bachelors in Science, 2010</h3>
                     <h4 class="college">Magna Cum Laude</h4>
                     <h5 class="college">Washington, DC</h5>
@@ -274,10 +280,10 @@
                 </div>
             </div>
             <div class="row image-tiles">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
                     <img style="width: 40%;" src="images/FSCJ-Logo-White-Text.png" class="img-responsive">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 school-info">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 school-info">
                     <h1 class="college">Florida State College</h1>
                     <h3 class="college">Associates of Arts, 2008</h3>
                     <h4 class="college">Focus: Fine Arts Photography</h4>
@@ -286,7 +292,9 @@
             </div>
         </div>
     </div>
+
     <!--TODO: This is a photography slideshow to show my personal protrait progjects-->
+<div class="container end-container">
     <h2 id="photography-title photography">My Portrait Photography</h2>
     <h4 id="photo-slide-desciption"><em>This slide show represents some of my portrait photography. I used Adobe Photoshop for post editing.</em></h4>
     <hr id="photography">
@@ -321,18 +329,19 @@
     </div>
     <!--TODO: End of photography slides-->
 
-</main>
-    <section id="footer-container">
-        <div class="container footer">
-            <div id="back-to-top">
-                <h1 class="container"><a href="#contact-info">Contact Me</a></h1>
-                <a href="#top"><h5><em>Back to Top</em></h5></a>
-            </div>
+
+    <div id="back-to-top">
+        <h1 class="container"><a href="#contact-info">Contact Me</a></h1>
+        <a href="#top"><h5><em>Back to Top</em></h5></a>
+    </div>
+</div>
+    <footer id="footer-container">
+        <div class="footer">
             <ul class="cont" id="social-media-links">
                 <li class="one-button">
                     <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                 </li>
-                <li class="one-button">
+                <li class="one-button hidden-sm hidden-xs">
                     <a href="https://www.facebook.com/proartphotos/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
                 </li>
                 <li class="one-button">
@@ -346,7 +355,7 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </footer>
 <!--</div>-->
 <br><br><br><br><br><br><br><br>
 <script src="LP-function.js"></script>
