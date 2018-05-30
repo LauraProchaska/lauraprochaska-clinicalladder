@@ -17,6 +17,13 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 }
 .jumbotron{
     margin-bottom: -30px;
+
+    background: rgb(125,126,125); /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(48, 7, 64, 0.6)), to(rgb(0, 0, 0)));
+    background: -webkit-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);
+    background: -moz-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);
+    background: -o-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(rgba(48, 7, 64, 0.6) 0%, rgba(0, 0, 0, 0.98) 100%);
 }
 /*My name seen on right of screen*/
 
@@ -38,16 +45,16 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 /*Background*/
 
 body {
-    background-color: rgb(100, 100, 100);
-    background: linear-gradient(360deg, #646464 10%, #343434 360%);
-    /*background: -webkit-linear-gradient(360deg, #1C1C1C 10%, #494949 360%), no-repeat;*/
+    /*background-color: rgb(100, 100, 100);*/
+    /*background: linear-gradient(360deg, rgba(93, 93, 93, 0.56) 10%, #000000 360%);*/
+    background: -webkit-linear-gradient(360deg, #2d2d2d 10%, #ededed 360%), no-repeat;
     /*background: -moz-linear-gradient(360deg, #1C1C1C 10%, #494949 360%), no-repeat;*/
     /*background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%), no-repeat;*/
     height: 5000px;
     width: 100vw;
 }
 #container {
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.43);
 }
 
 /*Navbar*/
@@ -80,8 +87,28 @@ body {
     color: #008686;
     background-color: #333333;
 }
+.dropdown-menu>li>a{
+    color: #009e9e;
+}
+.dropdown-menu{
+    font-size: 1.3em;
+    font-family: "American Typewriter";
+    background: rgb(125,126,125); /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(48, 7, 64, 0.85)), to(rgb(0, 0, 0)));
+    background: -webkit-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);
+    background: -moz-linear-gradient(rgba(48, 7, 64, 0.85) 0%, rgb(0, 0, 0) 100%);
+    background: -o-linear-gradient(rgba(48, 7, 64, 0.85) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(rgba(48, 7, 64, 0.85) 0%, rgba(0, 0, 0, 0.98) 100%);
+}
 /*MAIN SECTION STYLING*/
-
+.section-title {
+    font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+    color: #ededed;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.15);
+}
 
 section, body > main > div.container.resume{
     color: whitesmoke;
@@ -161,9 +188,9 @@ body > main > section > h2:nth-child(4){
 }
 
 h2{
-    font-family: "American Typewriter";
-    font-size: 3em;
-    color: whitesmoke;
+    /*font-family: "American Typewriter";*/
+    /*font-size: 3em;*/
+    /*color: whitesmoke;*/
     text-align: center;
     margin-top: 5%;
 }
@@ -208,6 +235,13 @@ blockquote{
 }
 .progress{
     margin-right: 3%;
+    width: 40%;
+    margin-left: 30%;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(127, 7, 145)), to(rgb(0, 81, 81)));
+    background: -webkit-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+    background: -moz-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+    background: -o-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+    background: linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
 }
 
 .contact{
@@ -225,10 +259,8 @@ blockquote{
 
 }
 .contact-information, #contact-info{
-    text-align: center;
     margin-top: 250px;
     margin-bottom: 50px;
-    color: white;
 }
 #back-to-top > h1 > a{
     color: white;
@@ -364,11 +396,10 @@ td{
     margin-left: 20%;
 }
 #education{
-    font-size: 3em;
     margin-bottom: 3%;
 }
 #education-container{
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.43);
 }
 
 div.image-tiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
@@ -384,23 +415,29 @@ div.image-tiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
 
 
 /*FOOTER SOCIAL MEDIAL LINKS----------------------------------------------------------------------*/
+
 #footer-container{
     background: linear-gradient(180deg, rgb(100, 100, 100), rgb(0, 0, 0));
+    position: absolute;
+    width: 100%;
+
 }
 footer{
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+
+
 }
 #footer-container > div{
-    padding-bottom: 4%;
+    /*padding-bottom: 6%;*/
     /*opacity: 0.5;*/
     border-top: 3px solid #ccc;
     border-bottom: 3px solid #ccc;
-    top: 0;
-    left: 0;
+    /*padding-bottom: 100px;*/
+    /*top: 0;*/
+    /*left: 0;*/
     bottom: 0;
     width: 100%;
+    position: relative;
+    height: 200px;
 }
 
 ul, li{
@@ -506,6 +543,9 @@ ul.cont{
     display: block;
     margin: 0 auto;
     width: 90%;
+}
+#social-media-links{
+    margin-top: 3.5%;
 }
 
 /*TODO: **************************PHOTO SLIDE SHOW**************************/
