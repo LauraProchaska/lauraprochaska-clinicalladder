@@ -66,7 +66,7 @@ section, body > main > div.container.resume{
 /*Projects*/
 #myInput {
     background-image: url('/images/search-icon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
+    background-position: 10px 6px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
@@ -134,11 +134,14 @@ h2{
     font-family: "American Typewriter";
     font-size: 3em;
     color: whitesmoke;
+    text-align: center;
+    margin-top: 5%;
 }
 
-h4{
-    font-family: "American Typewriter";
-    font-size: 2em;
+h4, body > main > h3 > em{
+    font-family: Arial;
+    /*font-size: 2em;*/
+    color: whitesmoke;
 }
 
 #recentProjects {
@@ -185,6 +188,10 @@ blockquote{
     text-align: center;
     margin-top: 250px;
     margin-bottom: 50px;
+    color: white;
+}
+#back-to-top > h1 > a{
+    color: white;
 }
 
 .infoButtons {
@@ -222,7 +229,7 @@ blockquote{
     position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(64, 64, 64);
     font-family: 'Yanone Kaffeesatz';
     font-weight: 700;
     font-size: 2em;
@@ -279,14 +286,6 @@ strong{
     text-decoration: underline;
 }
 
-#funTimes{
-    color: lightseagreen;
-    background-color: rgba(0, 0, 0, 0.08);
-    font-family: "Comic Sans MS";
-    text-align: center;
-
-}
-
 p{
     word-break: break-all;
 }
@@ -306,8 +305,20 @@ p{
 #aboutMe{
     text-align: center;
 }
+/*Technical Skills*/
+td{
+    font-family: Arial;
+    font-size: 2em;
+    color: #009e9e;
+}
 
 /*Education*/
+.img-responsive{
+    margin-left: 20%;
+}
+.school-info{
+    padding-top: 5%;
+}
 div.image-tiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
     padding: 5px;
 }
@@ -323,10 +334,10 @@ div.image-tiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
     bottom: 0;
 }
 #footer-container > div{
-    padding-bottom: 400px;
+    padding-bottom: 300px;
     padding-top: 5em;
     opacity: 0.5;
-    background: #00bcbc;
+    background: #333333;
     border-top: 3px solid #ccc;
     border-bottom: 3px solid #ccc;
     position: absolute;
