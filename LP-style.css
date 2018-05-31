@@ -711,7 +711,7 @@ a {
 }
 #modal-title{
     font-size: 3em;
-    color: rgba(237, 237, 237, 0.89);
-    text-shadow: 1px 1px 12px #47ffc5, 1px 1px 25px #d60bf2, 1px 1px 55px #00f3f3, 1px 1px #d60bf2;
+    color: rgba(162, 162, 162, 0.89);
+    text-shadow: 1px 1px 2px #7f0791, 1px 1px 5px #00f3f3;
 }
 
