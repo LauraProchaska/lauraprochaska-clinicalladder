@@ -680,7 +680,9 @@ a {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
+#modal-title{
+    margin-bottom: 2%;
+}
 /* Modal Content/Box */
 .modal-content {
     background-color: #0e0e0e;
@@ -688,6 +690,10 @@ a {
     /*padding: 20px;*/
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-footer{
+    margin-bottom: 3%;
 }
 
 /* The Close Button */
@@ -711,7 +717,13 @@ a {
 }
 #modal-title{
     font-size: 3em;
-    color: rgba(162, 162, 162, 0.89);
-    text-shadow: 1px 1px 2px #7f0791, 1px 1px 5px #00f3f3;
+    color: rgba(255, 255, 255, 0.89);
+    /*text-shadow: 1px 1px 1px #7f0791, 1px 1px 5px #00f3f3;*/
+}
+a{
+    color: white;
 }
 
+#myModal > div > div.modal-footer.col-lg-10.col-md-10.col-sm-10.col-xs-10 > h2 > a{
+    padding-bottom: 5%;
+}
