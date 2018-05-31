@@ -55,7 +55,31 @@ body {
 }
 #container {
     background-color: rgba(0, 0, 0, 0.43);
-    margin-top: -20px;
+    margin-top: -180px;
+}
+#container-two{
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 180px;
+}
+#container-three{
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 180px;
+}
+#container-four{
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 180px;
+}
+#container-five{
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 180px;
+}
+#container-six{
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 180px;
+}
+#container-seven{
+    background-color: rgba(0, 0, 0, 0.43);
+    margin-top: 180px;
 }
 
 /*Navbar*/
@@ -115,14 +139,21 @@ section, body > main > div.container.resume{
     color: whitesmoke;
 }
 
+
 /*Projects*/
+.search{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
 #myInput {
     background-image: url('/images/search-icon.png'); /* Add a search icon to input */
     background-position: 10px 6px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
+    padding: 12px 20px 12px 4px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
 }
