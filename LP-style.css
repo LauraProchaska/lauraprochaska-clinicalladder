@@ -215,8 +215,8 @@ blockquote{
     font-family: "sans-serif";
     font-size: 1em;
     width: 80%;
-    margin-left: 10%;
     text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
+    margin: 10% 10% 15% 10%;
 }
 
 #quote {
@@ -711,10 +711,66 @@ a {
     cursor: pointer;
 }
 
-#myBtn{
-    background-color: #333;
-    margin-top: 10%;
+/*#myBtn{*/
+    /*!*background-color: #333;*!*/
+    /*background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(72, 7, 89)), to(rgb(0, 44, 44)));*/
+    /*background: -webkit-linear-gradient(rgb(73, 7, 89) 0%, rgb(0, 44, 44) 100%);*/
+    /*background: -moz-linear-gradient(rgb(74, 7, 89) 0%, rgb(0, 44, 44) 100%);*/
+    /*background: -o-linear-gradient(rgb(76, 6, 89) 0%, rgb(0, 44, 44) 100%);*/
+    /*background: linear-gradient(rgb(76, 7, 89) 0%, rgb(0, 44, 44) 100%);*/
+    /*display:block;*/
+    /*margin:0 auto;*/
+
+/*}*/
+/************************************Modal BUTTON*************************************/
+#myBtn {
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(72, 7, 89)), to(rgb(0, 44, 44)));
+    background: -webkit-linear-gradient(rgb(73, 7, 89) 0%, rgb(0, 44, 44) 100%);
+    background: -moz-linear-gradient(rgb(74, 7, 89) 0%, rgb(0, 44, 44) 100%);
+    background: -o-linear-gradient(rgb(76, 6, 89) 0%, rgb(0, 44, 44) 100%);
+    background: linear-gradient(rgb(76, 7, 89) 0%, rgb(0, 44, 44) 100%);
+    display:block;
+    /*display: inline-block;*/
+    margin:0 auto;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*margin: 5px;*/
 }
+
+#myBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#myBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#myBtn:hover span {
+    padding-right: 25px;
+}
+
+#myBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/************************************Modal BUTTON END*************************************/
+
 #modal-title{
     font-size: 3em;
     color: rgba(255, 255, 255, 0.89);
@@ -726,4 +782,12 @@ a{
 
 #myModal > div > div.modal-footer.col-lg-10.col-md-10.col-sm-10.col-xs-10 > h2 > a{
     padding-bottom: 5%;
+}
+#photo-modal{
+    padding-top: 2%;
+    font-size: 3em;
+}
+
+#photo-title{
+    color: #a2a2a2;
 }
