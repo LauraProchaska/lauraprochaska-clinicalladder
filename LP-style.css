@@ -1,7 +1,12 @@
-/*Jumbotron*/
-.start-img {
-    /*background-image: url("./images/DSC_1351.JPG");*/
+
+/*Navbar*/
+.top-navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
 }
+
+/*Jumbotron*/
 
 body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
     width: 100%;
@@ -53,6 +58,13 @@ body {
     height: 5000px;
     width: 100vw;
 }
+
+/*****_*_*_*____*________CAROUSEL_________************/
+.slider-size {
+    height: 200px;
+}
+/********************/
+
 #container {
     background-color: rgba(0, 0, 0, 0.43);
     margin-top: -180px;
