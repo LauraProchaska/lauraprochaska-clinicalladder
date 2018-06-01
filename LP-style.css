@@ -52,12 +52,17 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 }
 
 /*Background*/
-html {
-    background: url("images/html3.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/*html {*/
+    /*background: url("images/html3.png") no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+@media (max-width: 768px) {
+    html {
+        background: url("images/sm-bck-grnd.jpg");
+    }
 }
 body {
     background: url("images/html3.png") no-repeat center center fixed;
@@ -77,6 +82,7 @@ body {
     background: rgba(146, 146, 146, 0.53);
     border-radius: 15px 50px;
 }
+
 /********************/
 /*Personal Projects*/
 #container {
