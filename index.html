@@ -27,26 +27,26 @@
 
 <!--JUMBOTRON-->
 
-<div class="jumbotron" id="header">
-    <div class="container" id="top">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <a href="#lost" style="width: 100%" class="thumbnail">
-                    <img  src="./images/long-portrait.jpg" alt="https://www.linkedin.com/in/laura-prochaska/">
-                </a>
-            </div>
-            <div class="col-lg-6 offset-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h1 class="navbar-right title">Laura Prochaska</h1>
-                <h3 class="title-dev">Software Developer</h3>
-                <h3 class="title-info">(305) 900-8059</h3>
-                <h3 class="title-info"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">Email Me</a></h3>
-            </div>
-        </div>
-    </div>
-</div>
-<br>
+<!--<div class="jumbotron" id="header">-->
+    <!--<div class="container" id="top">-->
+        <!--<div class="row">-->
+            <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">-->
+                <!--<a href="#lost" style="width: 100%" class="thumbnail">-->
+                    <!--<img  src="./images/long-portrait.jpg" alt="https://www.linkedin.com/in/laura-prochaska/">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-lg-6 offset-lg-6 col-md-6 col-sm-6 col-xs-12">-->
+                <!--<h1 class="navbar-right title">Laura Prochaska</h1>-->
+                <!--<h3 class="title-dev">Software Developer</h3>-->
+                <!--<h3 class="title-info">(305) 900-8059</h3>-->
+                <!--<h3 class="title-info"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">Email Me</a></h3>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<br>-->
 <!--*****************************************************NAVBAR*************************************************************-->
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse top-navbar">
     <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
@@ -81,7 +81,76 @@
         </div>
     </nav>
 </div>
-
+<!--************************************END OF NAVBAR***************************************************-->
+<!--photo and info about me -->
+<div class="jumbotron" id="header">
+    <div class="container" id="top">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <a href="#lost" style="width: 100%" class="thumbnail">
+                    <img  src="./images/long-portrait.jpg" alt="https://www.linkedin.com/in/laura-prochaska/">
+                </a>
+            </div>
+            <div class="col-lg-6 offset-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <h1 class="navbar-right title">Laura Prochaska</h1>
+                <h3 class="title-dev">Software Developer</h3>
+                <h3 class="title-info">(305) 900-8059</h3>
+                <h3 class="title-info"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">Email Me</a></h3>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!-- ***********************************************Carousel Fixed Height -->
+<section class="carousel-fixed-height">
+    <div id="carousel-fixed-height" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-fixed-height" data-slide-to="0" class=""></li>
+            <li data-target="#carousel-fixed-height" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-fixed-height" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- NOTE: Bootstrap v4 changes class name to carousel-item -->
+            <div class="item">
+                <!-- The only change from the original bootstrap carousel is the "item" divs. I am using this in a CMS so I use inline styles for the background divs so I can set the background image files within the loop.  Just easier for my purposes.  Change the img tag to a div as follows: -->
+                <!--<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/woman-camera.jpg" alt="First slide">-->
+                <div style="background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/woman-camera.jpg') center center; background-size:cover;" class="slider-size">
+                    <div class="carousel-caption">
+                        <h3>A woman with a camera</h3>
+                        <p>She is probably taking a picture</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <!--<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/spiderweb.jpg" alt="Second slide">-->
+                <div style="background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/spiderweb.jpg') center center; background-size:cover;" class="slider-size">
+                    <div class="carousel-caption">
+                        <h3>Down came the rain</h3>
+                        <p>And washed the spider out</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item active">
+                <!--<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/hearthand.jpg" alt="Third slide">-->
+                <div style="background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/hearthand.jpg') center center; background-size:cover;" class="slider-size">
+                    <div class="carousel-caption">
+                        <h3>Making love</h3>
+                        <p>She is probably taking a picture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-fixed-height" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-fixed-height" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+<!--*******************************END OF CAROUSEL**************************************-->
 <main id="container">
     <br><br><br><br>
     <h3 id="summary">
@@ -163,61 +232,6 @@
         <blockquote>“Great web design without functionality is like a sports car with no engine.”
             ― Paul Cookson</blockquote>
     </div>
-    <!--TODO ADDED A MODEL-->
-    <div id="photography"></div>
-    <button id="myBtn" style="vertical-align:middle">
-        <span>Portrait Photography</span>
-    </button>
-    <!-- The Modal -->
-    <div id="myModal" class="modal row">
-        <!-- Modal content -->
-        <div class="modal-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="modal-header">
-                <span class="close">&times;</span>
-                <h2 id="modal-title">ProArt Portrait Photography</h2>
-            </div>
-            <div class="modal-body">
-                <!--TODO: This is a photography slideshow to show my personal protrait progjects-->
-                <div class="container end-container col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <!-- Slideshow container -->
-                    <div class="slideshow-container">
-                        <!-- Full-width images with number and caption text -->
-                        <div class="mySlides fade">
-                            <div class="numbertext">1 / 3</div>
-                            <img src="images/img1.jpeg" style="width:100%">
-                            <div class="text">Newborn Baby Boy</div>
-                        </div>
-                        <div class="mySlides fade">
-                            <div class="numbertext">2 / 3</div>
-                            <img src="images/img2.jpeg" style="width:100%">
-                            <div class="text">Father with Son</div>
-                        </div>
-                        <div class="mySlides fade">
-                            <div class="numbertext">3 / 3</div>
-                            <img src="images/img3.jpeg" style="width:100%">
-                            <div class="text">Newborn Baby boy</div>
-                        </div>
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <br>
-                    <!-- The dots/circles -->
-                    <div style="text-align:center; margin-bottom: 5%">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                    </div>
-                </div>
-                    <!--TODO: End of photography slides-->
-            </div>
-            <div class="modal-footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h2><a href="mailto:lauraleeprochaska@gmail.com?Subject=Need%20a%20Developer" target="_top">Photographer: Laura Prochaska</a></h2>
-            </div>
-        </div>
-    </div>
-    <br>
-    <!--END OF MODAL-->
 </main>
 <br>
     <!--CONTACT INFO-->
@@ -253,39 +267,14 @@
             <button class="buttonPages hidden-sm hidden-xs" id="button4"><a href="https://www.facebook.com/proartphotos/" target="_blank">ProArt</a></button>
         </div>
         <br>
-        <h2 id="aboutMe"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Need%20a%20Developer" target="_top">Looking for a Web Developer?</a></h2>
     </div>
     <br>
 </main>
 <br>
-<!--RESUME-->
+<!--**************************************************Skillset-->
 <main id="container-five">
-    <div class="container resume">
-        <br>
-        <!--TODO: Style Work History-->
-        <!--<div>-->
-        <h2 id="work-history" class="section-title">Work History</h2>
-        <br>
-        <h3 class="work-title">Photographer-ProArt Photos, Global</h3>
-        <h4>JANUARY 2016 - PRESENT</h4>
-        <h4>Freelance Portrait Photographer</h4>
-        <h3 class="work-title">Lead Technologist-GWU Hospital, Washington DC</h3>
-        <h4>JANUARY 2016 -  OCTOBER 2017</h4>
-        <h4>Functioned as the lead on a team, serving as a medical imaging professional providing clinically relevant information to assist the physician with the diagnosis and treatment of patients.</h4>
-        <h3 class="work-title">Lead Technologist-GCM Radiology, Washington DC</h3>
-        <h4>OCTOBER 2010 - DECEMBER 2015</h4>
-        <h4>Overseed the performance of diagnostic examinations using sonographic equipment, and served as a liaison for the ultrasound team to management and doctors to support quality, safety and process standards for the department.</h4>
-        <h3 class="work-title">Imaging Technologist,  INOVA Healthcare, Washington DC</h3>
-        <h4>SEPTEMBER 2009 - OCTOBER  2010</h4>
-        <h4>Certified Vascular and obstetric Technologist. Assisted Radiologists in diagnostic ultrasound procedures by performing the sonography.</h4>
-        <h3 class="work-title">Lab Assistant, George Washington Uni., Washington DC</h3>
-        <h4>SEPTEMBER 2009-MARCH 2011</h4>
-        <h4>Taught imaging technical skills to students in the Sonography Program.</h4>
-    </div>
-        <br>
-</main>
-<br>
-<main id="container-six">
+    <br>
+    <h2 id="aboutMe"><a href="mailto:lauraleeprochaska@gmail.com?Subject=Need%20a%20Developer" target="_top">Looking for a Web Developer?</a></h2>
     <div>
         <h2 class="section-title">TECHNICAL SKILLS</h2>
         <table class="table table-dark hidden-sm hidden-xs">
@@ -319,8 +308,93 @@
             </tbody>
         </table>
     </div>
-    <br>
+    <br><br>
 </main>
+
+
+<!--Work History-->
+<main id="container-six">
+    <div class="container resume">
+        <br>
+        <!--TODO: Style Work History-->
+        <!--<div>-->
+        <h2 id="work-history" class="section-title">Work History</h2>
+        <br>
+        <h3 class="work-title">Photographer-ProArt Photos, Global</h3>
+        <h4>JANUARY 2016 - PRESENT</h4>
+        <h4>Freelance Portrait Photographer</h4>
+        <h5><em>Click below to see my photos</em></h5>
+        <!--TODO ADDED A MODEL-->
+        <div id="photography"></div>
+        <button id="myBtn" style="vertical-align:middle">
+            <span>Portrait Photography</span>
+        </button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal row">
+            <!-- Modal content -->
+            <div class="modal-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-title">ProArt Portrait Photography</h2>
+                </div>
+                <div class="modal-body">
+                    <!--TODO: This is a photography slideshow to show my personal protrait progjects-->
+                    <div class="container end-container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <!-- Slideshow container -->
+                        <div class="slideshow-container">
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="images/img1.jpeg" style="width:100%">
+                                <div class="text">Newborn Baby Boy</div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="images/img2.jpeg" style="width:100%">
+                                <div class="text">Father with Son</div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="images/img3.jpeg" style="width:100%">
+                                <div class="text">Newborn Baby boy</div>
+                            </div>
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        <!-- The dots/circles -->
+                        <div style="text-align:center; margin-bottom: 5%">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                    <!--TODO: End of photography slides-->
+                </div>
+                <div class="modal-footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2><a href="mailto:lauraleeprochaska@gmail.com?Subject=Need%20a%20Developer" target="_top">Photographer: Laura Prochaska</a></h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--END OF MODAL-->
+        <h3 class="work-title">Lead Technologist-GWU Hospital, Washington DC</h3>
+        <h4>JANUARY 2016 -  OCTOBER 2017</h4>
+        <h4>Functioned as the lead on a team, serving as a medical imaging professional providing clinically relevant information to assist the physician with the diagnosis and treatment of patients.</h4>
+        <h3 class="work-title">Lead Technologist-GCM Radiology, Washington DC</h3>
+        <h4>OCTOBER 2010 - DECEMBER 2015</h4>
+        <h4>Overseed the performance of diagnostic examinations using sonographic equipment, and served as a liaison for the ultrasound team to management and doctors to support quality, safety and process standards for the department.</h4>
+        <h3 class="work-title">Imaging Technologist,  INOVA Healthcare, Washington DC</h3>
+        <h4>SEPTEMBER 2009 - OCTOBER  2010</h4>
+        <h4>Certified Vascular and obstetric Technologist. Assisted Radiologists in diagnostic ultrasound procedures by performing the sonography.</h4>
+        <h3 class="work-title">Lab Assistant, George Washington Uni., Washington DC</h3>
+        <h4>SEPTEMBER 2009-MARCH 2011</h4>
+        <h4>Taught imaging technical skills to students in the Sonography Program.</h4>
+    </div>
+        <br>
+</main>
+<br>
     <!--*********************************************Education**********************************************************-->
 <main id="container-seven">
         <div class="container" id="education-container">
@@ -386,8 +460,7 @@
             </ul>
         </div>
     </footer>
-<!--</div>-->
-<br><br><br><br><br><br><br><br>
+<!--<br><br><br><br><br><br><br><br>-->
 <script src="LP-function.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
