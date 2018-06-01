@@ -194,7 +194,7 @@ section, body > main > div.container.resume{
 }
 
 #myInput {
-    background-image: url('/images/search-icon.png'); /* Add a search icon to input */
+    /*background-image: url('/images/search-icon.png'); !* Add a search icon to input *!*/
     background-position: 10px 6px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100%; /* Full-width */
