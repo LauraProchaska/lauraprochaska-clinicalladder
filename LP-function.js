@@ -18,6 +18,9 @@
 
 'use-strict';
 //************PROJECTS SEARCH******************
+// var bootstrapButton = $.fn.button.noConflict(); // return $.fn.button to previously assigned value
+// $.fn.bootstrapBtn = bootstrapButton;
+
 function myFunction() {
     // Declare variables
     var input, filter, ul, li, a, i;
