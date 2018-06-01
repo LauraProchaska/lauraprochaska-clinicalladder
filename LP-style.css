@@ -37,6 +37,7 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 
 .title {
     text-align: right;
+    margin-top: 35px;
 }
 .title-dev{
     text-align: right;
@@ -103,6 +104,11 @@ body {
     background-color: rgb(255, 255, 255);
     margin: -40px 0 -20px 0;
     padding:100px 0 100px 0;
+}
+@media (max-width: 768px) {
+    #container-five{
+        background-color: rgba(17, 17, 17, 0.67);
+    }
 }
 .cont-five{
     width: 60%;
