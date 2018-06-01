@@ -11,6 +11,10 @@
 body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
     width: 100%;
 }
+/*Make space between navbar and jumbotron image*/
+#top > div > div:nth-child(1){
+    padding-top: 50px;
+}
 
 .title-header, .jumbotron {
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.66), rgba(0, 0, 0, 0.92));
@@ -22,7 +26,6 @@ body > div.title-header.start.hidden-md.hidden-sm.hidden-xs > a > img{
 }
 .jumbotron{
     margin-bottom: -30px;
-
     background: rgb(125,126,125); /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(48, 7, 64, 0.6)), to(rgb(0, 0, 0)));
     background: -webkit-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);
@@ -56,13 +59,11 @@ html {
     background-size: cover;
 }
 body {
-    background-color: rgba(0, 0, 0, 0);
-    /*background-color: rgb(100, 100, 100);*/
-    /*background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(48, 7, 64, 0.85)), to(rgb(0, 0, 0)));*/
-    /*background: -webkit-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);*/
-    /*background: -moz-linear-gradient(rgba(48, 7, 64, 0.85) 0%, rgb(0, 0, 0) 100%);*/
-    /*background: -o-linear-gradient(rgba(48, 7, 64, 0.85) 0%, rgb(0, 0, 0) 100%);*/
-    /*background: linear-gradient(rgba(48, 7, 64, 0.85) 0%, rgba(0, 0, 0, 0.98) 100%);*/
+    background: url("images/html3.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 5000px;
     width: 100vw;
 }
@@ -95,12 +96,12 @@ body {
 }
 #container-four{
     background-color: rgba(0, 0, 0, 0.9);
-    margin: 180px 0 200px 0;
+    margin-top: 200px;
     padding-bottom: 100px;
 }
 #container-five{
-    background-color: rgba(0, 0, 0, 0.9);
-    margin: -80px 0 200px 0;
+    background-color: rgb(255, 255, 255);
+    margin: -40px 0 -20px 0;
     padding:100px 0 100px 0;
 }
 .cont-five{
@@ -112,11 +113,13 @@ body {
 
 #container-six{
     background-color: rgba(0, 0, 0, 0.89);
-    margin-top: 180px;
+    /*margin: 0 0  0;*/
+    padding:100px 0 100px 0;
 }
 #container-seven{
     background-color: rgba(0, 0, 0, 0.85);
-    margin-top: 180px;
+    margin: 300px 0 0 0;
+    padding:100px 0 100px 0;
 }
 
 /*Navbar*/
@@ -410,11 +413,6 @@ blockquote{
 
 
 /*----------------------------------------*/
-
-.resume {
-    color: #000000;
-}
-
 strong{
     text-decoration: underline;
 }
@@ -442,7 +440,12 @@ p{
 td{
     font-family: Arial;
     font-size: 2em;
-    color: #009e9e;
+    color: #004444;
+}
+
+#tech-skills-title{
+    color: #004444;
+    font-family: "American Typewriter";
 }
 
 /*WORK HISTORY*/
@@ -801,7 +804,7 @@ a {
     background: -moz-linear-gradient(rgb(74, 7, 89) 0%, rgb(0, 44, 44) 100%);
     background: -o-linear-gradient(rgb(76, 6, 89) 0%, rgb(0, 44, 44) 100%);
     background: linear-gradient(rgb(76, 7, 89) 0%, rgb(0, 44, 44) 100%);
-    display:block;
+    /*display:block;*/
     /*display: inline-block;*/
     margin:0 auto;
     border: none;
@@ -809,7 +812,7 @@ a {
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 200px;
+    width: 300px;
     transition: all 0.5s;
     cursor: pointer;
     /*margin: 5px;*/
