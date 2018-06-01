@@ -54,12 +54,9 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-image: url("images/html.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: right top;*/
-    /*background-attachment: fixed;*/
 }
 body {
+    background-color: rgba(0, 0, 0, 0);
     /*background-color: rgb(100, 100, 100);*/
     /*background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(48, 7, 64, 0.85)), to(rgb(0, 0, 0)));*/
     /*background: -webkit-linear-gradient(rgba(48, 7, 64, 0.61) 0%, rgb(0, 0, 0) 100%);*/
@@ -74,34 +71,51 @@ body {
 .slider-size {
     height: 200px;
 }
+.carousel-caption{
+    background: rgba(146, 146, 146, 0.53);
+    border-radius: 15px 50px;
+}
 /********************/
-
+/*Personal Projects*/
 #container {
-    background-color: rgba(0, 0, 0, 0.43);
-    margin-top: -180px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -100px;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
 }
 #container-two{
-    background-color: rgba(0, 0, 0, 0.43);
-    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.91);
+    margin: 180px 0 200px 0;
+    padding-bottom: 100px;
 }
 #container-three{
-    background-color: rgba(0, 0, 0, 0.43);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 40px;
     margin-top: 180px;
 }
 #container-four{
-    background-color: rgba(0, 0, 0, 0.43);
-    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 180px 0 200px 0;
+    padding-bottom: 100px;
 }
 #container-five{
-    background-color: rgba(0, 0, 0, 0.43);
-    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: -80px 0 200px 0;
+    padding:100px 0 100px 0;
 }
+.cont-five{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+
+}
+
 #container-six{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.89);
     margin-top: 180px;
 }
 #container-seven{
-    background-color: rgba(0, 0, 0, 0.82);
+    background-color: rgba(0, 0, 0, 0.85);
     margin-top: 180px;
 }
 
@@ -211,11 +225,9 @@ section, body > main > div.container.resume{
 
 /*FULL STACK DEVELOPER*/
 #fullStack > strong > a{
-    font-family: "Arial";
-
+    font-family: Arial;
     padding: 30px;
-    font-size: 50px;
-    background-color: rgba(0, 0, 0, 0.08);
+    font-size: 1em;
     color: rgb(255, 255, 255);
     border-radius: 8px;
     width: 150px;
@@ -312,7 +324,7 @@ blockquote{
 
 }
 .contact-information, #contact-info{
-    margin-top: 250px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 #back-to-top > h1 > a{
