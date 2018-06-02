@@ -226,8 +226,7 @@ section, body > main > div.container.resume{
 }
 
 #myUL li a {
-    width: 50%;
-    margin-left: 25%;
+    margin: 0px 20px 10px 20px;
     text-align: center;
     border: 1px solid rgba(125,126,125,1); /* Add a border to all links */
     margin-top: -1px; /* Prevent double borders */
@@ -349,6 +348,19 @@ blockquote{
 .contact-information, #contact-info{
     margin-top: 150px;
     margin-bottom: 50px;
+}
+/*EMAIL PLACEHOLDERS*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: whitesmoke;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: whitesmoke;
+}
+
+:-ms-input-placeholder { /* Microsoft Edge */
+    color: whitesmoke;
 }
 #back-to-top > h1 > a{
     color: white;
