@@ -146,5 +146,11 @@ $(document).ready(function() {
         console.log(data)
     });
 
+    $.ajax({
+        url: "https://formspree.io/FORM_ID",
+        method: "POST",
+        data: {message: "hello!"},
+        dataType: "json"
+    });
 
 });
