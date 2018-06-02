@@ -354,6 +354,12 @@ blockquote{
     color: whitesmoke;
     opacity: 1; /* Firefox */
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+}
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: whitesmoke;
