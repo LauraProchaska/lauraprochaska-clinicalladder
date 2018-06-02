@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="LP-style.css">
+    <link rel="stylesheet" href="form.css" >
     <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="icon" href="images/dev.png">
@@ -269,7 +270,7 @@
                         <br>
                         (305) 900-8059
                         <br>
-                        <a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">lauraleeprochaska@gmail.com</a>
+                        <a href="mailto:lauraleeprochaska@gmail.com?Subject=Hello%20again" target="_top">lauraleeprochaska@gmail</a>
                         <br>
                         San Antonio
                         <br>
@@ -286,9 +287,68 @@
             <button class="buttonPages hidden-sm hidden-xs" id="button3"><a href="https://laleprotravel.blogspot.com" target="_blank">blogger</a></button>
             <button class="buttonPages hidden-sm hidden-xs" id="button4"><a href="https://www.facebook.com/proartphotos/" target="_blank">ProArt</a></button>
         </div>
-        <br>
     </div>
-    <br>
+    <!--**********EMAIL***************-->
+    <h2 style="color: whitesmoke; margin-top: -100px;">E-mail Me</h2>
+    <form style="text-align: center;" action="https://formspree.io/lauraleeprochaska@gmail.com"
+          method="POST">
+        <h4>Name:</h4>
+        <input type="text" name="name" placeholder="Enter Your Name" style="width: 200px; height: 30px; border-radius: 5px; padding-left: 10px; background: rgb(105,7,122);
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 1.2em;">
+        <h4>E-mail:</h4>
+        <input type="text" name="_replyto" placeholder="Enter Your email" style="width: 200px; height: 30px; border-radius: 5px; padding-left: 10px; background: rgb(105,7,122);
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 1.2em;"/>
+        <input type="hidden" name="_subject" value="New submission!"/>
+        <h4>Message:</h4>
+        <!--<input type="text" name="comment" style="width: 500px; height: 300px"><br><br>-->
+        <textarea style="
+         border-radius: 5px;
+        border: 1.5px solid whitesmoke;
+        width: 70%;
+        height: 300px;
+        background: darkcyan;
+        color: whitesmoke;
+        font-size: 1.5em;
+        padding: 5px 10px;
+        font-family: sans-serif;"
+                  name="comments" maxlength="1000" placeholder="Write your message here" cols="25" rows="6"></textarea><br><br>
+        <input type="submit" value="Send" style="
+        padding:5px 15px;
+        margin-right: 15px;
+        color: whitesmoke;
+        font-size: larger;
+        font-family: 'American Typewriter';
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(127, 7, 145)), to(rgb(0, 81, 81)));
+        background: -webkit-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        background: -moz-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        background: -o-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        background: linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 15px; ">
+        <input type="reset" value="Reset" style="
+        padding:5px 15px;
+        margin-left: 5px;
+        color: whitesmoke;
+        font-size: larger;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(127, 7, 145)), to(rgb(0, 81, 81)));
+        background: -webkit-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        background: -moz-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        background: -o-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        background: linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 15px; ">
+        <input type="hidden" name="_next" value="https://lalepro.github.io./"/>
+        <input type="hidden" name="_format" value="plain" />
+        <input type="text" name="_gotcha" style="display:none" />
+    </form>
 </div>
 <br>
 <!--**************************************************Skillset-->
