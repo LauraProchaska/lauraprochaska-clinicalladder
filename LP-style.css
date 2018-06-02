@@ -349,7 +349,72 @@ blockquote{
     margin-top: 150px;
     margin-bottom: 50px;
 }
-/*EMAIL PLACEHOLDERS*/
+/****************************EMAIL**********************************EMAIL***********************************EMAIL*****************/
+/*$buttons-height: 24px;*/
+/*$sticky-width: 24px;*/
+/*$padding: 10px;*/
+
+.sticky-container {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(127, 7, 145, 0.71)), to(rgba(0, 81, 81, 0.7)));
+    background: -webkit-linear-gradient(rgba(127, 7, 145, 0.7) 0%, rgba(0, 81, 81, 0.71) 100%);
+    background: -moz-linear-gradient(rgba(127, 7, 145, 0.71) 0%, rgba(0, 81, 81, 0.71) 100%);
+    background: -o-linear-gradient(rgba(127, 7, 145, 0.71) 0%, rgba(0, 81, 81, 0.71) 100%);
+    background: linear-gradient(rgba(127, 7, 145, 0.7) 0%, rgba(0, 81, 81, 0.71) 100%);
+    box-shadow: gray -1px 1px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 00px;
+    height: auto;
+    z-index: 9999;
+    margin-top: 10px;
+    text-align: center;
+}
+.button-container:hover{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(0, 81, 81)), to(rgb(127, 7, 145)));
+    background: -webkit-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    background: -moz-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    background: -o-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    background: linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+}
+#modalBtn{
+    background-color: #009e9e;
+    border-radius: 50px;
+}
+
+#modalBtn:hover{
+    background-color: #ff22ee;
+}
+
+#container-four > div.sticky-container:hover {
+     width: 124px;
+    background-color: rgba(0, 220, 220, 0.29);
+ }
+
+#sticky-button {
+    padding: 0;
+    display: block;
+    text-align: left;
+    height: 54px;;
+    width: 84px;
+    padding: 8px 16px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#modalBtn > img {
+    max-height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: whitesmoke;
     opacity: 1; /* Firefox */
@@ -368,6 +433,54 @@ blockquote{
 :-ms-input-placeholder { /* Microsoft Edge */
     color: whitesmoke;
 }
+
+/* The EMAIL Modal (background) */
+.modalTwo {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#modalTwo > div > form{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+/* EMAIL Modal Content */
+.email-modal-content {
+    /*background-color: rgba(17, 17, 17, 0.54);*/
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* EMAIL Close Button */
+.closeModal {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*****************END OF EMAIL*********************/
+
+
 #back-to-top > h1 > a{
     color: white;
 }
@@ -378,9 +491,6 @@ blockquote{
     margin-bottom: 150px;
     display: flex;
 
-}
-#button1 {
-    /*margin-left: 20%;*/
 }
 
 .buttonPages {
