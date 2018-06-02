@@ -71,7 +71,38 @@ function showSlides(n) {
 }
 //TODO: Photography Slide Show End
 
-//TODO MODAL
+
+//TODO: Email Modal
+// Get the modal
+var modalTwo = document.getElementById('modalTwo');
+
+// Get the button that opens the modal
+var modalBtn = document.getElementById("modalBtn");
+
+// Get the <span> element that closes the modal
+var closeModal = document.getElementsByClassName("closeModal")[0];
+
+// When the user clicks the button, open the modal
+modalBtn.onclick = function() {
+    modalTwo.style.display = "block";
+};
+
+// When the user clicks on <span> (x), close the modal
+closeModal.onclick = function() {
+    modalTwo.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(eventTwo) {
+    if (eventTwo.target == modalTwo) {
+        modalTwo.style.display = "none";
+    }
+};
+
+
+//***********END OF EMAIL MODAL
+
+//TODO photography MODAL
 // Get the modal
 var modal = document.getElementById('myModal');
 
