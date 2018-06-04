@@ -128,6 +128,9 @@ body {
     width: 60%;
     display: block;
     margin: 0 auto;
+    background-color: rgba(51, 51, 51, 0.07);
+    padding: 10px 50px 10px 10px;
+    border-radius: 3px;
 
 }
 
@@ -187,7 +190,7 @@ body {
 }
 /*MAIN SECTION STYLING*/
 .section-title {
-    font-size: 3em;
+    font-size: 2em;
     font-family: sans-serif;
     text-align: center;
     margin-bottom: 2%;
@@ -231,7 +234,7 @@ section, body > main > div.container.resume{
     border: 1px solid rgba(125,126,125,1); /* Add a border to all links */
     margin-top: -1px; /* Prevent double borders */
     /*background-color: rgba(31, 67, 67, 0.63); !* Grey background color *!*/
-    background: linear-gradient(to right, rgba(0, 39, 39, 0.92), rgba(0, 158, 158, 0.66));
+    background: linear-gradient(to right, rgba(0, 39, 39, 0.92), rgba(0, 255, 255, 0.66));
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove default text underline */
     font-size: 2em; /* Increase the font-size */
@@ -240,7 +243,12 @@ section, body > main > div.container.resume{
 }
 
 #myUL li a:hover:not(.header) {
-    background-color: #00ffff; /* Add a hover effect to all links, except for headers */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(127, 7, 145)), to(rgb(0, 81, 81)));
+    background: -webkit-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+    background: -moz-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+    background: -o-linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+    background: linear-gradient(rgb(127, 7, 145) 0%, rgb(0, 81, 81) 100%);
+
 }
 
 /*END OF PROJECTS SECTION*/
@@ -355,14 +363,15 @@ blockquote{
 /*$padding: 10px;*/
 
 .sticky-container {
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(127, 7, 145, 0.71)), to(rgba(0, 81, 81, 0.7)));
-    background: -webkit-linear-gradient(rgba(127, 7, 145, 0.7) 0%, rgba(0, 81, 81, 0.71) 100%);
-    background: -moz-linear-gradient(rgba(127, 7, 145, 0.71) 0%, rgba(0, 81, 81, 0.71) 100%);
-    background: -o-linear-gradient(rgba(127, 7, 145, 0.71) 0%, rgba(0, 81, 81, 0.71) 100%);
-    background: linear-gradient(rgba(127, 7, 145, 0.7) 0%, rgba(0, 81, 81, 0.71) 100%);
+    border-radius: 5px 0 0 5px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(0, 81, 81)), to(rgb(127, 7, 145)));
+    background: -webkit-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    background: -moz-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    background: -o-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    background: linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
     box-shadow: gray -1px 1px;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-bottom: 10px;
     padding-right: 3px;
     position: fixed;
@@ -375,11 +384,12 @@ blockquote{
     text-align: center;
 }
 .button-container:hover{
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(0, 81, 81)), to(rgb(127, 7, 145)));
-    background: -webkit-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
-    background: -moz-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
-    background: -o-linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
-    background: linear-gradient(rgb(0, 81, 81) 0%, rgb(127, 7, 145) 100%);
+    border-radius: 20px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(127, 7, 145, 0.71)), to(rgba(0, 81, 81, 0.7)));
+    background: -webkit-linear-gradient(rgba(127, 7, 145, 0.7) 0%, rgba(0, 81, 81, 0.71) 100%);
+    background: -moz-linear-gradient(rgba(127, 7, 145, 0.71) 0%, rgba(0, 81, 81, 0.71) 100%);
+    background: -o-linear-gradient(rgba(127, 7, 145, 0.71) 0%, rgba(0, 81, 81, 0.71) 100%);
+    background: linear-gradient(rgba(127, 7, 145, 0.7) 0%, rgba(0, 81, 81, 0.71) 100%);
 }
 #modalBtn{
     background-color: #009e9e;
@@ -933,17 +943,6 @@ a {
     cursor: pointer;
 }
 
-/*#myBtn{*/
-    /*!*background-color: #333;*!*/
-    /*background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(72, 7, 89)), to(rgb(0, 44, 44)));*/
-    /*background: -webkit-linear-gradient(rgb(73, 7, 89) 0%, rgb(0, 44, 44) 100%);*/
-    /*background: -moz-linear-gradient(rgb(74, 7, 89) 0%, rgb(0, 44, 44) 100%);*/
-    /*background: -o-linear-gradient(rgb(76, 6, 89) 0%, rgb(0, 44, 44) 100%);*/
-    /*background: linear-gradient(rgb(76, 7, 89) 0%, rgb(0, 44, 44) 100%);*/
-    /*display:block;*/
-    /*margin:0 auto;*/
-
-/*}*/
 /************************************Modal BUTTON*************************************/
 #myBtn {
     border-radius: 4px;
@@ -954,13 +953,13 @@ a {
     background: linear-gradient(rgb(76, 7, 89) 0%, rgb(0, 44, 44) 100%);
     /*display:block;*/
     /*display: inline-block;*/
+    width: 50%;
     margin:0 auto;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 1em;
     padding: 20px;
-    width: 300px;
     transition: all 0.5s;
     cursor: pointer;
     /*margin: 5px;*/
