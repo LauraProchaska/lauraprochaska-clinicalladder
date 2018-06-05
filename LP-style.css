@@ -7,7 +7,7 @@
     /*background-size: cover;*/
     /*height: 100%;*/
 /*}*/
-@media only screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
     html {
         background: url("images/html3.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -17,7 +17,7 @@
         height: 100%;
     }
 }
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     html {
         background: url("images/html3.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -27,7 +27,7 @@
         height: 100%;
     }
 }
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
     html {
         background: url("images/html3.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -1029,4 +1029,184 @@ a{
 
 #photo-title{
     color: #a2a2a2;
+}
+
+/*JUST ABOVE FOOTER*/
+/*****************************************************END OF NAV*******************************************/
+body > main > section > div.split.row > div.hidden-xs.col-sm-12.col-md-12.col-lg-12 {
+    margin-top: 140px;
+
+}
+
+.margin-width {
+    margin-bottom: 100px;
+}
+
+.split {
+    font-family: Abel;
+    font-size: 30px;
+}
+
+.photos {
+    border: 0.5em solid lightgrey;
+    width:500px;
+    height: 229px;
+    position:relative;
+    margin-bottom: 15px;
+}
+
+.space {
+
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.ddsh {
+    float: right;
+    position: relative;
+
+}
+
+.bg-danger {
+    background:#e6563b;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+
+}
+
+.bg-warning {
+    background: #DEA03D;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+}
+
+.bg-success {
+    background: #7cb06c;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+}
+
+.bg-info {
+    background: #00aba9;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+}
+
+.shift {
+    margin-top: 40px;
+}
+
+
+.lastimgrow {
+    width: 100%;
+    border:1.5px solid darkgrey;
+
+}
+
+.lasttext {
+    padding: 0px;
+    font-family: Anton;
+    float: left;
+    text-align: left;
+    font-size: 1em;
+}
+
+.last {
+    font-family: Abel;
+    text-align: left;
+    font-size: 20px;
+}
+
+.twitter {
+    margin-top: 40px;
+}
+
+.twit {
+    width: 100%;
+}
+
+
+
+/*------xs devices default setting in Bootstrap-------*/
+
+@media (max-width: 767px) {
+    .select {
+        text-align: center;
+    }
+
+    .photos {
+        width: 100%;
+        height: auto;
+
+        display: inline-block;
+    }
+
+}
+
+#background-image{
+    margin-top: 200px;
+    /*background: #000000;*/
+}
+
+
+
+
+/*---------sm devices--------*/
+
+@media (min-width:768px) {
+    .select {
+        text-align: center;
+
+    }
+    .photos {
+        width: 100%;
+        float: left;
+    }
+}
+
+
+
+
+/*-----------medium devices-------*/
+
+@media (min-width:992px) {
+    .photos {
+        width:100%;
+        float: left;
+    }
+
+}
+
+
+
+
+/*------------lg and xl devices-------*/
+
+@media (min-width:1200px) {
+    .photos {
+        width: 100%;
+        float: left;
+    }
+
+    .margin-width {
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .lastimgrow {
+        margin-bottom: 20px;
+    }
 }
